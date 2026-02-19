@@ -2,14 +2,14 @@
 
 export const MASTER_ADMINS = [
   "aniketadhav022@gmail.com",
-  "viveknikam22104@gmail.com",
+  "kartikgaikwad1418@gmail.com",
   "ipranav0009@gmail.com"
 ];
 
 export const DEPARTMENT_ADMINS = {
   "mhaskeomkar066@gmail.com": "Computer",
   "varadnagare67@gmail.com": "Computer",
- "avisabale7230@gmail.com": "Computer",// ✅ COMPUTER ADMIN 
+ "avisabale7230@gmail.com": "Computer",
   "vaishnavibabar0918@gmail.com": "AIDS",
   "nikhilmutha890@gmail.com": "Electrical",
   "gaikwadshivam2004@gmail.com": "Civil",
@@ -18,7 +18,6 @@ export const DEPARTMENT_ADMINS = {
   "sainathkalkekar863@gmail.com": "ENTC",
   "thoratpranav0307@gmail.com": "First Year (All Departments)",
   "gaikwadsanskar43@gmail.com":"First Year (All Departments)",
-  "kartikgaikwad1418@gmail.com": "STR",
   "avdhootkanawade4@gmail.com":"STR",
   "mr.irle3466@gmail.com": "A&R",
   "duratkarshruti60@gmail.com": "A&R",
