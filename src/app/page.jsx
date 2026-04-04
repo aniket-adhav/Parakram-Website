@@ -243,6 +243,26 @@ const SPORTS = [
   ];
 
 const GC_CHAMPIONS = {
+  2026: [
+    {
+      position: "Winner",
+      name: "AI&DS COMRADES",
+      description: "Showed the best overall performance with consistent results across multiple sports",
+      imageUrl: "/qr/AI&DS_COMRADES.jpg",
+    },
+    {
+      position: "Runner Up",
+      name: "Computer GIANTS",
+      description: "Performed strongly in team events with good coordination and match results",
+      imageUrl: "/qr/Computer_Gaints_logo.png",
+    },
+    {
+      position: "PowerHouse",
+      name: "RUDRASHAKTI MECHANICAL",
+      description: "Strong fan support throughout the event",
+      imageUrl: "/qr/Mech.png",
+    },
+  ],
   2025: [
     {
       position: "Winner",
@@ -261,26 +281,6 @@ const GC_CHAMPIONS = {
       name: "RUDRASHAKTI MECHANICAL",
       description: "Strong fan support throughout the event",
       imageUrl: "/qr/Mech.png",
-    },
-  ],
-  2024: [
-    {
-      position: "Winner",
-      name: "Computer GIANTS",
-      description: "Showed the best overall performance with consistent results across multiple sports",
-      imageUrl: "/qr/Computer_Gaints_logo.png",
-    },
-    {
-      position: "Runner Up",
-      name: "ENTC SPARTANS",
-      description: "Performed strongly in team events with good coordination and match results",
-      imageUrl: "/qr/ENTC_SPARTANS_logo.png",
-    },
-    {
-      position: "3rd Place",
-      name: "AI&DS COMRADES",
-      description: "Delivered notable performances, especially in individual sporting events",
-      imageUrl: "/qr/AI&DS_COMRADES.jpg",
     },
   ],
 };
@@ -1399,7 +1399,7 @@ function SportsSection() {
 }
 
 function ChampionsSection() {
-  const [activeYear, setActiveYear] = useState("2025");
+  const [activeYear, setActiveYear] = useState("2026");
 
   return (
     <section id="champions" className="py-24 relative">
@@ -1422,7 +1422,7 @@ function ChampionsSection() {
         </motion.div>
 
         <div className="flex justify-center gap-4 mb-12">
-          {["2025", "2024"].map((year) => (
+          {["2026", "2025"].map((year) => (
             <motion.button
               key={year}
               onClick={() => setActiveYear(year)}
