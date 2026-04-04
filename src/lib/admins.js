@@ -1,13 +1,14 @@
 // src/lib/admins.js
 
 export const MASTER_ADMINS = [
-  "aniketadhav022@gmail.com",
+  
   "kartikgaikwad1418@gmail.com",
   "ipranav0009@gmail.com"
 ];
 
 export const DEPARTMENT_ADMINS = {
   "mhaskeomkar066@gmail.com": "Computer",
+  "aniketadhav022@gmail.com": "Computer",
   "varadnagare67@gmail.com": "Computer",
  "avisabale7230@gmail.com": "Computer",
   "vaishnavibabar0918@gmail.com": "AIDS",

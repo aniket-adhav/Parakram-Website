@@ -248,19 +248,19 @@ const GC_CHAMPIONS = {
       position: "Winner",
       name: "AI&DS COMRADES",
       description: "Dominated across all sports categories",
-      imageUrl: "https://res.cloudinary.com/djoqcej0n/image/upload/v1769758387/aidslogo_q85xse.jpg",
+      imageUrl: "/qr/AI&DS_COMRADES.jpg",
     },
     {
       position: "Runner Up",
       name: "CIVILIANS",
       description: "Strong performance in athletics and team sports",
-      imageUrl: "https://res.cloudinary.com/djoqcej0n/image/upload/v1768922243/civil_sc5r8d.png",
+      imageUrl: "/qr/civil.png",
     },
     {
       position: "PowerHouse",
       name: "RUDRASHAKTI MECHANICAL",
       description: "Strong fan support throughout the event",
-      imageUrl: "https://res.cloudinary.com/djoqcej0n/image/upload/v1769758399/Mech_cedyq1.png",
+      imageUrl: "/qr/Mech.png",
     },
   ],
   2024: [
@@ -268,19 +268,19 @@ const GC_CHAMPIONS = {
       position: "Winner",
       name: "Computer GIANTS",
       description: "Showed the best overall performance with consistent results across multiple sports",
-      imageUrl: "https://res.cloudinary.com/djoqcej0n/image/upload/v1769522186/Computer_Gaints_logo_ryedkp.png",
+      imageUrl: "/qr/Computer_Gaints_logo.png",
     },
     {
       position: "Runner Up",
       name: "ENTC SPARTANS",
       description: "Performed strongly in team events with good coordination and match results",
-      imageUrl: "https://res.cloudinary.com/djoqcej0n/image/upload/v1769522187/ENTC_SPARTANS_logo_plnxyu.png",
+      imageUrl: "/qr/ENTC_SPARTANS_logo.png",
     },
     {
       position: "3rd Place",
       name: "AI&DS COMRADES",
       description: "Delivered notable performances, especially in individual sporting events",
-      imageUrl: "https://res.cloudinary.com/djoqcej0n/image/upload/v1769758387/aidslogo_q85xse.jpg",
+      imageUrl: "/qr/AI&DS_COMRADES.jpg",
     },
   ],
 };
@@ -668,7 +668,7 @@ function CountdownTimer() {
     setMounted(true);
 
     // 🔥 FIXED EVENT DATE (2 March 2026, 9:00 AM IST)
-    const eventDate = new Date("2026-02-21T09:00:00+05:30");
+    const eventDate = new Date("2026-04-01T09:00:00+05:30");
 
     const updateTimer = () => {
       const now = new Date();
@@ -1153,7 +1153,7 @@ function AboutSection() {
               className="relative group rounded-[2.5rem] overflow-hidden aspect-[16/10] md:aspect-auto md:h-[450px] shadow-2xl shadow-orange-500/10 border border-white/5 cursor-pointer"
             >
               <img
-                src="https://res.cloudinary.com/djoqcej0n/image/upload/v1768921780/pic_qdgbky.jpg"
+                src="/qr/cric.jpg"
                 alt="Sports Arena"
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               />
